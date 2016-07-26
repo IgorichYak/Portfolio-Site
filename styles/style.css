@@ -437,7 +437,7 @@ main article section{
 	margin-top:5px;
 	margin-left:6px;
 	margin-bottom:55px;
-	transition: all 0.5s ease;
+  	transition: all ease 0.3s;
 }
 .my-work_old-portfolio-site-img:hover{
 	-webkit-transform: scale(1.4);
