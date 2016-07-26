@@ -168,9 +168,10 @@ article h1{
 	padding-top:4%;
 	font-size:24px;
 }
+
 @media (max-width:520px){
 article h1{
-	font-size:12px;
+	font-size:16px
 }
 }
 
@@ -310,17 +311,17 @@ main article section{
 .about-me section div{
 	display:inline-block;
 	Width:100%;
-	
 }
 
 .about-me section div h2{
 	color: green;
-	font-size:15px;	
-	padding-top:10px;
+	font-size:16px;	
+	padding-top:3%;
 }
 
 .about-me section div p{
 	padding-top:10px;
+	margin-top:-1%;
 }
 
 @media (max-width:850px){
@@ -366,8 +367,13 @@ main article section{
 .my-contact section div a{
 	color:blue;
 	display:block;
-	margin-top:40px;
+	margin-top:4%;
+	text-decoration:underline;
 }
+.my-contact section div a:hover{
+	color:#191970;
+}
+
 
 
 .my-contact section div p{
@@ -526,7 +532,7 @@ footer{
 }
 .portfolio-desc__desc{
 	color:#999;
-	font-size:12px;
+	font-size:13px;
 	margin-top:5px;
 }
 
