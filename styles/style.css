@@ -11,8 +11,7 @@ h1,h2{
 
 body{
 	width:100%;
-	height:auto !important;
-	height:100%;	
+	height:auto;	
 	font-family: Arial;
 }
 @media (min-width:1400px){
@@ -95,7 +94,7 @@ nav a{
 	padding-top:60%;
 	float:left;
 	color:white;
-	font-size:10px;
+	font-size:9px;
 }
 
 .nav-one-img{
@@ -130,7 +129,7 @@ nav a{
 }
 @media (max-width:1000px){
 .nav-style{
-	font-size:9px;
+	font-size:8px;
 	width:80px;
 }
 
@@ -151,7 +150,8 @@ main{
 	height:400px;
 	text-align:center;
 	background:url('../img/main_background-one.png') no-repeat;	
-	background-size:500%;	
+	background-size:500%;
+	padding-bottom:30px;	
 }
 @media (max-width:520px){
 main{
