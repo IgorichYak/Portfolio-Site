@@ -297,6 +297,21 @@ main article section{
 }
 .about-me section div{
 	display:block;
+<<<<<<< HEAD
+}
+
+}
+
+.about-me section div img{
+	display:block;
+	Width:40%;
+	float:left;
+	margin-left:1%;
+}
+
+.about-me section div{
+	display:inline-block;
+	Width:100%;
 }
 
 }
@@ -315,6 +330,8 @@ main article section{
 
 .about-me section div h2{
 	color: green;
+	font-size:15px;	
+	padding-top:10px;
 	font-size:16px;	
 	padding-top:3%;
 }
@@ -361,6 +378,10 @@ main article section{
 	Width:40%;
 	float:left;
 	margin-left:1%;
+	display:block;
+	Width:40%;
+	float:left;
+	margin-left:1%;
 }
 
 
@@ -372,6 +393,14 @@ main article section{
 }
 .my-contact section div a:hover{
 	color:#191970;
+}
+
+
+
+.my-contact section div a{
+	color:blue;
+	display:block;
+	margin-top:40px;
 }
 
 
@@ -437,6 +466,13 @@ main article section{
 	margin-top:5px;
 	margin-left:6px;
 	margin-bottom:55px;
+	transition: all 0.5s ease;
+}
+.my-work_old-portfolio-site-img:hover{
+	-webkit-transform: scale(1.4);
+  	-ms-transform: scale(1.4);
+  	transform: scale(1.4);	
+}
   	transition: all ease 0.3s;
 }
 .my-work_old-portfolio-site-img:hover{
